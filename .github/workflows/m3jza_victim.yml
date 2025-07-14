@@ -1,4 +1,4 @@
-name: Victim m3jeza
+name: yousef spider
 
 on:
   workflow_dispatch:  # Run manually from GitHub
