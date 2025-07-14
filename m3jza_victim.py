@@ -2,9 +2,9 @@ import time
 import requests
 import random
 
-url = "https://kick.com/api/v2/messages/send/15720418"
+url = "https://kick.com/api/v2/messages/send/53535723"
 headers = {
-    "Authorization": "Bearer 214176003|8e5NWfg8A3R4XCIdCASqd8Hc0HyTTGCxrNAerKSA",
+    "Authorization": "Bearer 206436231|QKzw7hIEv0tBUTl89p1Ugq8kAn6NS1RteXGxfMRj",
     "Content-Type": "application/json"
 }
 
@@ -14,16 +14,13 @@ emotes = [
     "[emote:37242:catblobDan]",
     "[emote:39258:coffinPls]",
     "[emote:39268:HYPERCLAPH]",
+    "[emote:3841534:snpyousef53koko]",
     "!points",
     "!level",
-    "اللهم صلى وسلم وبارك علي سيدنا محمد",
-    "كفووووووووو",
-    "اسطورة",
+    "!xp",
     "سبحان الله وبحمده سبحان الله العظيم",
     "اللهم صلى وسلم وبارك علي سيدنا محمد",
-    "اللهم صلى وسلم وبارك علي سيدنا محمد",
-    "سبحان الله وبحمده سبحان الله العظيم",
-    "سبحان الله وبحمده سبحان الله العظيم",
+   
 ]
 
 # Calculate the number of iterations needed for 3 hours
