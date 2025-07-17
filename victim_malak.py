@@ -9,18 +9,20 @@ headers = {
 }
 
 emotes = [
-    "[emote:37244:modCheck]",
-    "[emote:39402:Flowie]",
-    "[emote:37242:catblobDan]",
-    "[emote:39258:coffinPls]",
-    "[emote:39268:HYPERCLAPH]",
+    "[emote:3868801:malak01g][emote:3868801:malak01g][emote:3868801:malak01g][emote:3868801:malak01g][emote:3868801:malak01g]",
+    "[emote:3868810:malak01we][emote:3868810:malak01we][emote:3868810:malak01we][emote:3868810:malak01we][emote:3868810:malak01we]",
+    "[emote:3868782:malak01sh][emote:3868782:malak01sh][emote:3868782:malak01sh][emote:3868782:malak01sh]",
+    "[emote:3868787:malak01z][emote:3868787:malak01z][emote:3868787:malak01z][emote:3868787:malak01z]",
+    "[emote:3868773:malak01A][emote:3868773:malak01A][emote:3868773:malak01A][emote:3868773:malak01A]",
+    "[emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f]",
+    "[emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d]",
+    "[emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f]",
+    "[emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d]",
+    "[emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010]",
+    "[emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010]",
     "!points",
     "!xp",
     "!level",
-    "سبحان الله وبحمده سبحان الله العظيم",
-    "اللهم صلى وسلم وبارك علي سيدنا محمد",
-    "اللهم صلى وسلم وبارك علي سيدنا محمد",
-    "سبحان الله وبحمده سبحان الله العظيم",
     "سبحان الله وبحمده سبحان الله العظيم",
     "لا اله الا الله وحده لا شريك له له الملك وله الحمد وهو علي كل شئ قدير"
 ]
