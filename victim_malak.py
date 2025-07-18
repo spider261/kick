@@ -25,7 +25,7 @@ emotes = [
     "!level"
 ]
 
-for i in range(180):  
+for i in range(720):  
     random_emote = random.choice(emotes)
     data = {"content": random_emote, "type": "message"}
     res = requests.post(url, json=data, headers=headers)
