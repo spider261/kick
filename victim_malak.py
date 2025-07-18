@@ -22,9 +22,7 @@ emotes = [
     "[emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010]",
     "!points",
     "!xp",
-    "!level",
-    "سبحان الله وبحمده سبحان الله العظيم",
-    "لا اله الا الله وحده لا شريك له له الملك وله الحمد وهو علي كل شئ قدير"
+    "!level"
 ]
 
 for i in range(180):  
@@ -32,4 +30,4 @@ for i in range(180):
     data = {"content": random_emote, "type": "message"}
     res = requests.post(url, json=data, headers=headers)
     print(f"[{i+1}/180] Sent: {random_emote} | Status: {res.status_code}")
-    time.sleep(60)
+    time.sleep(10)
