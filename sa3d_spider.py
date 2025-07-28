@@ -2,21 +2,25 @@ import time
 import requests
 import random
 
-url = "https://kick.com/api/v2/messages/send/53535723"
+url = "https://kick.com/api/v2/messages/send/15423903"
 headers = {
-    "Authorization": "Bearer 206436231|QKzw7hIEv0tBUTl89p1Ugq8kAn6NS1RteXGxfMRj",
+    "Authorization": "Bearer 207575384|VM2TjP93pkyfOxxlZb9zeKt5eNRRHtj5qeooggnC",
     "Content-Type": "application/json"
 }
 
 emotes = [
-    "[emote:37244:modCheck]",
-    "[emote:39402:Flowie]",
-    "[emote:37242:catblobDan]",
-    "[emote:39258:coffinPls]",
-    "[emote:39268:HYPERCLAPH]",
-    "[emote:3841534:snpyousef53koko]",
-    "!points",
-    "سبحان الله وبحمده سبحان الله العظيم"
+    "[emote:2728414:sa3dolaEZ]",
+    "[emote:2728417:sa3dolaHEHE]",
+    "[emote:2728420:sa3dolaPERFECTO]",
+    "[emote:2728416:sa3dolaRokba]",
+    "[emote:2728422:sa3dolaZ3eem]",
+    "[emote:37218:Clap]",
+    "[emote:37232:PeepoClap]",
+    "[emote:2728418:sa3dolaCLOWN]",
+    "!shop",
+    "!top",
+    "!points"
+
    
 ]
 
@@ -24,7 +28,7 @@ emotes = [
 # 3 hours = 180 minutes
 # Each message is sent every 2 minutes (120 seconds)
 # So, total iterations = 180 minutes / 2 minutes/iteration = 90 iterations
-num_iterations = 90
+num_iterations = 60
 
 # Loop to send messages
 for i in range(num_iterations):
