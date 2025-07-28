@@ -1,4 +1,4 @@
-name: yousef spider
+name: sa3dola spider
 
 on:
   workflow_dispatch:  # Run manually from GitHub
@@ -16,4 +16,4 @@ jobs:
     - name: Install dependencies
       run: pip install requests
     - name: Run the script
-      run: python m3jza_victim.py
+      run: python sa3d_spider.py
