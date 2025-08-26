@@ -2,32 +2,54 @@ import time
 import requests
 import random
 
-url = "https://kick.com/api/v2/messages/send/16409618"
+url = "https://kick.com/api/v2/messages/send/29224752"
 headers = {
-    "Authorization": "Bearer 214176003|8e5NWfg8A3R4XCIdCASqd8Hc0HyTTGCxrNAerKSA",
+    "Authorization": "Bearer 206436231|QKzw7hIEv0tBUTl89p1Ugq8kAn6NS1RteXGxfMRj",
     "Content-Type": "application/json"
 }
 
 emotes = [
-    "[emote:3868801:malak01g][emote:3868801:malak01g][emote:3868801:malak01g][emote:3868801:malak01g][emote:3868801:malak01g]",
-    "[emote:3868810:malak01we][emote:3868810:malak01we][emote:3868810:malak01we][emote:3868810:malak01we][emote:3868810:malak01we]",
-    "[emote:3868782:malak01sh][emote:3868782:malak01sh][emote:3868782:malak01sh][emote:3868782:malak01sh]",
-    "[emote:3868787:malak01z][emote:3868787:malak01z][emote:3868787:malak01z][emote:3868787:malak01z]",
-    "[emote:3868773:malak01A][emote:3868773:malak01A][emote:3868773:malak01A][emote:3868773:malak01A]",
-    "[emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f]",
-    "[emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d]",
-    "[emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f][emote:3868783:malak01f]",
-    "[emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d][emote:3868793:malak01d]",
-    "[emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010]",
-    "[emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010][emote:3868775:malak010]",
-    "!points",
-    "!xp",
-    "!level"
+    "[emote:39261:kkHuh]",
+    "[emote:4147902:KEKBye]",
+    "[emote:37225:KEKLEO]",
+    "[emote:37226:KEKW]",
+    "[emote:2824545:3mrefr7o]",
+    "[emote:37218:Clap]",
+    "[emote:37232:PeepoClap]",
+    "[emote:2824546:3mrnoata]",
+    "[emote:4148128:mericCat]",
+    "[emote:4147910:BBoomer]",
+    "[emote:2824546:3mrnoata]",
+    "[emote:37248:ratJAM]",
+    "[emote:37245:peepoDJ]",
+    "!shop",
+    "!top",
+    "!points"
+
+
 ]
 
-for i in range(720):  
+# Calculate the number of iterations needed for 3 hours
+# 3 hours = 180 minutes
+# Each message is sent every 2 minutes (120 seconds)
+# So, total iterations = 180 minutes / 2 minutes/iteration = 90 iterations
+num_iterations = 120
+
+# Loop to send messages
+for i in range(num_iterations):
+    # Randomly select an emote or command from the list
     random_emote = random.choice(emotes)
+
+    # Prepare the data payload for the POST request
     data = {"content": random_emote, "type": "message"}
+
+    # Send the POST request to the Kick.com API
     res = requests.post(url, json=data, headers=headers)
-    print(f"[{i+1}/180] Sent: {random_emote} | Status: {res.status_code}")
-    time.sleep(10)
+
+    # Print the status of the sent message
+    print(f"[{i+1}/{num_iterations}] Sent: {random_emote} | Status: {res.status_code}")
+
+    # Wait for 120 seconds (2 minutes) before the next iteration
+    time.sleep(120)
+
+print("Script finished after 3 hours.")
