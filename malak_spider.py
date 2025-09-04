@@ -63,4 +63,4 @@ for i in range(720):
     data = {"content": random_emote, "type": "message"}
     res = requests.post(url, json=data, headers=headers)
     print(f"[{i+1}/180] Sent: {random_emote} | Status: {res.status_code}")
-    time.sleep(6)
+    time.sleep(15)
