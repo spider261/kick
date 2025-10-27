@@ -9,48 +9,7 @@ headers = {
 }
 
 emotes = [
-      "[emote:39261:kkHuh]",
-    "[emote:4147902:KEKBye]",
-    "[emote:37225:KEKLEO]",
-    "[emote:37226:KEKW]",
-    "[emote:2824545:3mrefr7o]",
-    "[emote:37218:Clap]",
-    "[emote:37232:PeepoClap]",
-    "[emote:2824546:3mrnoata]",
-    "[emote:4148128:mericCat]",
-    "[emote:4147910:BBoomer]",
-    "[emote:2824546:3mrnoata]",
-    "[emote:37248:ratJAM]",
-    "[emote:37245:peepoDJ]",
-    "[emote:39261:kkHuh]",
-    "[emote:4147902:KEKBye]",
-    "[emote:37225:KEKLEO]",
-    "[emote:37226:KEKW]",
-    "[emote:2824545:3mrefr7o]",
-    "[emote:37218:Clap]",
-    "[emote:37232:PeepoClap]",
-    "[emote:2824546:3mrnoata]",
-    "[emote:4148128:mericCat]",
-    "[emote:4147910:BBoomer]",
-    "[emote:2824546:3mrnoata]",
-    "[emote:37248:ratJAM]",
-    "[emote:37245:peepoDJ]",
-    "[emote:39261:kkHuh]",
-    "[emote:4147902:KEKBye]",
-    "[emote:37225:KEKLEO]",
-    "[emote:37226:KEKW]",
-    "[emote:2824545:3mrefr7o]",
-    "[emote:37218:Clap]",
-    "[emote:37232:PeepoClap]",
-    "[emote:2824546:3mrnoata]",
-    "[emote:4148128:mericCat]",
-    "[emote:4147910:BBoomer]",
-    "[emote:2824546:3mrnoata]",
-    "[emote:37248:ratJAM]",
-    "[emote:37245:peepoDJ]",
-    "!shop",
-    "!top",
-    "!points"
+      "!shop buy 1000 01553464578 insta"
 
 
 ]
@@ -76,6 +35,6 @@ for i in range(num_iterations):
     print(f"[{i+1}/{num_iterations}] Sent: {random_emote} | Status: {res.status_code}")
 
     # Wait for 120 seconds (2 minutes) before the next iteration
-    time.sleep(120)
+    time.sleep(360)
 
 print("Script finished after 3 hours.")
