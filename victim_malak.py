@@ -9,7 +9,12 @@ headers = {
 }
 
 emotes = [
-      "!shop buy 1000 01553464578 insta"
+      "حاحا",
+    "!points",
+    "!shop",
+    "!top",
+    ".",
+    "1"
 
 
 ]
