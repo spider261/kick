@@ -65,7 +65,7 @@ emotes = [
 # 3 hours = 180 minutes
 # Each message is sent every 2 minutes (120 seconds)
 # So, total iterations = 180 minutes / 2 minutes/iteration = 90 iterations
-num_iterations = 300
+num_iterations = 150
 
 # Loop to send messages
 for i in range(num_iterations):
