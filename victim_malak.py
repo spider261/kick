@@ -9,7 +9,13 @@ headers = {
 }
 
 emotes = [
-      "حاحا",
+      "!shop buy 500 01034533703 cash",
+    "!shop buy 500 01553464578 insta",
+    "!shop buy 720 5234199892 spider"
+
+]
+comments = [
+    "حاحا",
     "!points",
     "!shop",
     "!top",
@@ -57,8 +63,6 @@ emotes = [
     "!shop",
     "!top",
     "!points"
-
-
 ]
 
 # Calculate the number of iterations needed for 3 hours
