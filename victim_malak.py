@@ -8,13 +8,13 @@ headers = {
     "Content-Type": "application/json"
 }
 
-emotes = [
+buy = [
       "!shop buy 500 01034533703 cash",
     "!shop buy 500 01553464578 insta",
     "!shop buy 720 5234199892 spider"
 
 ]
-comments = [
+emotes = [
     "حاحا",
     "!points",
     "!shop",
